@@ -1,13 +1,14 @@
 //Given 2 digit number as input, 
 //compute the sum of its digits.
 
-function sum2digit(num){
-    var x,y =[];
-    x = num.toString().split('');
-    for (var i=0; i<=x.length-1;i++){
-        sum = Number(x[i]) + Number(x[i+1]);
-        return sum;
+function sumOfDigits(num){
+    let x=0, temp;
+    while(num!=0){
+        temp = num%10;
+        num = parseInt(num/10)
+        x += temp;
     }
+    return x;
 }
 
-console.log(sum2digit(12));
+console.log(sumOfDigits(127));

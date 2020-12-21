@@ -4,4 +4,4 @@ function convertToDecimal(num){
     return num.toFixed(2);
 }
 
-console.log(convertToDecimal(70));
+console.log(convertToDecimal(72.12780));
