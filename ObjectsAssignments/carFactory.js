@@ -1,4 +1,4 @@
-car1 = {
+var car1 = {
     color:'Yellow',
     model:'XYZ',
     speed:0,
@@ -16,7 +16,7 @@ car1 = {
     stop:function(){ 
       console.log(this.name+" "+" has stopped");  
     }
-}
+};
 
 car2 = {
     color:'Pink',
@@ -37,6 +37,6 @@ car2 = {
       console.log(this.name+" "+" has stopped");  
     }
 }
-
+console.log(car1);
 car1.start();
 car2.move();
