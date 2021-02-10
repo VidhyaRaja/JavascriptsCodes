@@ -11,4 +11,4 @@ console.log(emp1.name, emp2.name);
 var studentX = 'Ayesha';
 var studentY = studentX;
 studentY = 'Arundathi';
-console.log(studentX, studentY);
+console.log(studentX, studentY); 
